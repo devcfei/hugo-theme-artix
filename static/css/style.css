@@ -247,7 +247,8 @@ section{
     width: 1.6rem;
     height: 3px;
     border-radius: 3px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: rgb(20, 20, 20); /*color of hamburger-menu icon*/
     position: relative;
     z-index: 1001;
     transition: .5s;
@@ -259,7 +260,8 @@ section{
     position: absolute;
     width: inherit;
     height: inherit;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: rgb(20, 20, 20); /*color of hamburger-menu icon*/
     border-radius: 3px;
     transition: .5s;
 }
