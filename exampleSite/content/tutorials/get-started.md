@@ -11,7 +11,7 @@ Artix is a hugo theme, get the source code to start use this theme.
 
 ## Step 1 - Setup HUGO
 
-Get detail steps to [Hugo is for lovers](/docs/hugoisforlovers)
+Get detail steps to [Hugo is for lovers](/articles/hugoisforlovers)
 
 
 ## Step 2 - Checkout latest code for demo
