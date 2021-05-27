@@ -35,6 +35,8 @@ Friday | Release
 
 To customize the table, update the default setting of `table, tr, th, td` in `static/css/style.css` 
 
+Default settings as below
+
 ```css
 table, tr, th, td{
     border: 1px solid #E7E7E7;

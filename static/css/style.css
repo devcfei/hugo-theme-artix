@@ -534,6 +534,16 @@ table, tr, th, td{
     border: 1px solid #E7E7E7;
 }
 
+.main-article blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    border-left: 3px solid #E7E7E7;
+    background: #fafafa;
+}
+
 .main-toc{
     max-width: 15rem;
     min-width: 15rem;
