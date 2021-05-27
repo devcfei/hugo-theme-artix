@@ -26,7 +26,7 @@ This is a blockquotes
 
 To customize the table, update the default setting of `table, tr, th, td` in `static/css/style.css` 
 
-Default settings as following
+Default settings as below
 
 ```css
 .main-article blockquote {
