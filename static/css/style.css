@@ -498,6 +498,21 @@ main{
     /* background-color:rgb(195, 187, 223); */
 }
 
+
+.main-article ul
+{
+    list-style: disc;
+    user-select: none;    
+    padding-left: 2em;  
+
+}
+
+.main-article ul li{
+    padding-left: 0px;
+    list-style: disc;
+    user-select: none;
+}
+
 .main-toc{
     max-width: 15rem;
     min-width: 15rem;
