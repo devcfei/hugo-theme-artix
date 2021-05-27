@@ -15,3 +15,8 @@ lineNumbersInTable = true
 noClasses = true
 style = "monokailight"
 tabWidth = 4
+
+
+[params]
+brand = "Artix"     # Brand of Site
+subbrand = "Docs"   # Sub-Brand of Site, optional

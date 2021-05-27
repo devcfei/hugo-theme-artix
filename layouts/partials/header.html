@@ -4,9 +4,12 @@
         
         <div class="logo-container">
             <img class="logo-icon" src="/images/favicon.png"/>
-            <h1 class="logo">Artix</h1>
+            <h1 class="logo">{{.Site.Params.Brand}}</h1>
+
+            {{- if .Site.Params.Subbrand}}  
             <pre>  </pre>| <pre>  </pre>
-            <span> devcfei</span>
+            <span> {{.Site.Params.Subbrand}}</span>
+            {{- end}}
         </div>
 
         <div class="nav-btn">

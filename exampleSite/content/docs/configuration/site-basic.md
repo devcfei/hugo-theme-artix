@@ -13,8 +13,18 @@ date: 2021-05-27T09:01:20+08:00
 - Multiple level menus
 - Search
 - Legal infomation
+- Code highlight
 
 
+## Logo, brand and sub-brand
+
+The logo should be configured by replace the `static/images/favicon.png`. The brand and sub-branded can be configured by the `config.toml`. The sub-brand is optional.
+
+```toml
+[params]
+brand = "Artix"     # Brand of Site
+subbrand = "Docs"   # Sub-Brand of Site, optional
+```
 
 ## Code highlight
 
