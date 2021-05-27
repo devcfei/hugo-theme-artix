@@ -1,6 +1,7 @@
 ---
 title: "Lists"
 date: 2021-05-27T09:29:11+08:00
+weight: 3
 #draft: true
 ---
 

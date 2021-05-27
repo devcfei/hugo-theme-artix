@@ -1,6 +1,7 @@
 ---
 title: "Get Started"
 date: 2021-05-27T07:50:38+08:00
+weight: 1
 #draft: true
 ---
 
