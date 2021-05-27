@@ -33,6 +33,10 @@ Friday | Release
 
 ## Customize
 
-## Known issues
+To customize the table, update the default setting of `table, tr, th, td` in `static/css/style.css` 
 
-- No border by default
+```css
+table, tr, th, td{
+    border: 1px solid #E7E7E7;
+}
+```

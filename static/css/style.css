@@ -529,6 +529,11 @@ main{
     font-size: large;
 }
 
+
+table, tr, th, td{
+    border: 1px solid #E7E7E7;
+}
+
 .main-toc{
     max-width: 15rem;
     min-width: 15rem;
