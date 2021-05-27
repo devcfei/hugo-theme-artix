@@ -504,7 +504,6 @@ main{
     list-style: disc;
     user-select: none;    
     padding-left: 2em;  
-
 }
 
 .main-article ul li{
@@ -512,6 +511,18 @@ main{
     list-style: disc;
     user-select: none;
 }
+
+.main-article ol
+{
+    user-select: none;    
+    padding-left: 2em;  
+}
+
+.main-article ol li{
+    padding-left: 0px;
+    user-select: none;
+}
+
 
 .main-toc{
     max-width: 15rem;
