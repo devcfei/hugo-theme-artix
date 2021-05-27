@@ -34,7 +34,7 @@ Friday | Release
 
 ## Customize
 
-To customize the table, update the default setting of `table, tr, th, td` in `static/css/style.css` 
+To customize the table, change the default setting of `table, tr, th, td` in `static/css/style.css` 
 
 Default settings as below
 

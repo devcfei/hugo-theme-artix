@@ -17,7 +17,11 @@
 
         <div class="main-toc">
             <h3> In this article</h3>
+
+            {{if or (in .Params.layouts "toc") (.Site.Params.alwaysTOC)}}
             {{ .TableOfContents }}
+            {{end -}} 
+
         </div>
 
 

@@ -557,6 +557,18 @@ table, tr, th, td{
 }
 
 
+body #TableOfContents > ul {  
+    padding-left: 0em;
+    font-size: small;
+
+}
+
+body #TableOfContents > ul li { 
+    padding-left: 1em;
+    font-size:small;
+}
+
+
 footer{
     margin-top:-100px; 
     height: 100px; 
@@ -568,5 +580,4 @@ footer{
     border-top:1px solid #E7E7E7;
 
 }
-
 

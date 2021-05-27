@@ -7,10 +7,15 @@ themesdir = "../.."
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
 
+
+
+[markup]
+
+defaultMarkdownHandler = "goldmark"
+
 [markup.goldmark.renderer]
 unsafe = true
 
-[markup]
 [markup.highlight]
 codeFences = true
 guessSyntax = false
@@ -31,3 +36,4 @@ startLevel = 1
 brand = "Artix"     # Brand of Site
 subbrand = "Docs"   # Sub-Brand of Site, optional
 ordersectionsby = "weight" # weight, title
+alwaysTOC = true    # always have TOC for a page

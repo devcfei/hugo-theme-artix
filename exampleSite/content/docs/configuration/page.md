@@ -21,7 +21,7 @@ Page can be configurated by **Front Matter** which is a setting set by YAML or T
 title: "Page" # Used by left navigation and a part of title of the window
 date: 2021-05-27T10:11:34+08:00
 draft: true # true to take part for build, hugo default supported
-layout:
+layouts:
     - nav         # Enable left navigation 
     - toc         # Enable Right navigation 
     - breadcrumb  # Enable Breadcrumb navigation 
