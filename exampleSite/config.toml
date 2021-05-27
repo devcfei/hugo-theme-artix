@@ -4,3 +4,14 @@ title = "My New Hugo Site"
 theme = "hugo-theme-artix"
 themesdir = "../.."
 
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "monokailight"
+tabWidth = 4

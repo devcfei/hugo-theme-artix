@@ -16,5 +16,21 @@ date: 2021-05-27T09:01:20+08:00
 
 
 
+## Code highlight
 
+
+```toml
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "monokailight"
+tabWidth = 4
+
+```
 
