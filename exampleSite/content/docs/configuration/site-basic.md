@@ -14,6 +14,7 @@ date: 2021-05-27T09:01:20+08:00
 - Search
 - Legal infomation
 - Code highlight
+- Table of contents
 
 
 ## Logo, brand and sub-brand
@@ -44,3 +45,16 @@ tabWidth = 4
 
 ```
 
+## Table of contents
+
+TOC is a hugo inbox feature, refers to [Hugo](https://gohugo.io/getting-started/configuration-markup#table-of-contents) for details
+
+
+**Example**
+```toml
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
+```
