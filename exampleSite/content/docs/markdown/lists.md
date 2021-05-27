@@ -10,22 +10,27 @@ date: 2021-05-27T09:29:11+08:00
 
 ## No order
 
+**The markdown**
 ```markdown
 - Monday
 - Tuesday
 - Wednesday
 ```
 
+**Rendered as follow**
 - Monday
 - Tuesday
 - Wednesday
 
 
+**The markdown**
 ```markdown
 * Monday
 * Tuesday
 * Wednesday
 ```
+
+**Rendered as follow**
 * Monday
 * Tuesday
 * Wednesday
@@ -33,12 +38,14 @@ date: 2021-05-27T09:29:11+08:00
 
 ## Order
 
+**The markdown**
 ```markdown
 1. Monday
 1. Tuesday
 1. Wednesday
 ```
 
+**Rendered as follow**
 1. Monday
 1. Tuesday
 1. Wednesday
@@ -46,6 +53,7 @@ date: 2021-05-27T09:29:11+08:00
 
 ## Nested
 
+**The markdown**
 ```markdown
 1. Monday
 1. Tuesday
@@ -63,6 +71,7 @@ date: 2021-05-27T09:29:11+08:00
 - Wednesday
 ```
 
+**Rendered as follow**
 1. Monday
 1. Tuesday
     1. Morning

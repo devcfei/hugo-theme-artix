@@ -8,6 +8,8 @@ date: 2021-05-27T09:34:58+08:00
 
 ## Syntax and demo
 
+
+**The markdown**
 ```markdown
 
 Working day | Reminder
@@ -19,7 +21,7 @@ Thusday | Debug and validation
 Friday | Release
 ```
 
-Rendered as follow
+**Rendered as follow**
 
 Working day | Reminder
 ---|---
