@@ -524,6 +524,11 @@ main{
 }
 
 
+
+.highlight pre{
+    font-size: large;
+}
+
 .main-toc{
     max-width: 15rem;
     min-width: 15rem;
