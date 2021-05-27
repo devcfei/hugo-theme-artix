@@ -524,11 +524,15 @@ main{
 }
 
 
-
-.highlight pre{
-    font-size: large;
+.highlight pre code{
+    color: #000;
+    font-family: monospace, sans-serif
 }
 
+code{
+    color: #1aabf3;
+    font-family: 'Poppins', sans-serif;
+}
 
 table, tr, th, td{
     border: 1px solid #E7E7E7;
