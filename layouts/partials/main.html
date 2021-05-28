@@ -1,11 +1,20 @@
 <main>
     <div class="container">
 
+        {{if eq .Params.layouttype "single"}}
+
+        <div>
+            {{.Content}}
+        </div>
+        
+        {{else}}
+        
+
         <div class="main-nav">            
             <h3> Tree </h3>
-            {{if or (in .Params.layouts "nav") (.Site.Params.alwaysNav)}}
+            {{if or (in .Params.layouts "nav") (.Site.Params.alwaysNav) }}
             {{ partial "main-nav" . }}
-            {{end -}} 
+            {{end -}}
         
         </div>
 
@@ -15,7 +24,6 @@
 
             {{if or (in .Params.layouts "breadcrumb") (.Site.Params.alwaysBreadcrumb)}}
             {{ partial "breadcrumb" . }}
-
             {{end -}}  
 
             </div>
@@ -36,6 +44,6 @@
 
         </div>
 
-
+        {{end -}} 
     </div>
 </main>
