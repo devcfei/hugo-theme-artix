@@ -524,6 +524,28 @@ main{
 }
 
 
+.nav-breadcrumb ul{
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #fafafa;
+}
+
+.nav-breadcrumb ul> li {
+    display: inline-block;
+}
+
+.nav-breadcrumb ul > li + li:before {
+    padding: 0px 0px;
+    color: #1c495f;
+    content: "/\00a0";
+}
+
+.nav-breadcrumb ul > .active {
+    color: #777;
+}
+
+
 .highlight pre code{
     color: #000;
     font-family: monospace, sans-serif

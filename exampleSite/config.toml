@@ -37,3 +37,4 @@ brand = "Artix"     # Brand of Site
 subbrand = "Docs"   # Sub-Brand of Site, optional
 ordersectionsby = "weight" # weight, title
 alwaysTOC = true    # always have TOC for a page
+alwaysBreadcrumb = true    # always have Breadcrumb for a page

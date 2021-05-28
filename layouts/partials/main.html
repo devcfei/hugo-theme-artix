@@ -8,6 +8,15 @@
 
         <div class="main-article">
 
+            <div class="nav-breadcrumb">
+
+            {{if or (in .Params.layouts "breadcrumb") (.Site.Params.alwaysBreadcrumb)}}
+            {{ partial "breadcrumb" . }}
+
+            {{end -}}  
+
+            </div>
+
             <div>
                 {{.Content}}
             </div>
