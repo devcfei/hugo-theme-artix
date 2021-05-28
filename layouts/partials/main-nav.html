@@ -17,7 +17,7 @@
 {{- $currentNode := .currentnode -}}
 {{ with .sect }}
 {{ if .IsSection }}
-{{ if in .Site.Params.menu_exclusion .Section }}
+{{ if in .Site.Params.nav_exclusion .Section }}
 {{- else -}}
   {{- safeHTML .Params.head -}}
     {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}

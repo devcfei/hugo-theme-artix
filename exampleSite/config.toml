@@ -38,8 +38,12 @@ subbrand = "Docs"   # Sub-Brand of Site, optional
 ordersectionsby = "weight" # weight, title
 alwaysTOC = true    # always have TOC for a page
 alwaysBreadcrumb = true    # always have Breadcrumb for a page
+alwaysNav = true    # always have navigator for a page
 
-
+# path name excluded from documentation navigator
+nav_exclusion = [
+    "articles",
+]
 
 #
 # top menu shotcuts

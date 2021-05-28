@@ -3,7 +3,10 @@
 
         <div class="main-nav">            
             <h3> Tree </h3>
+            {{if or (in .Params.layouts "nav") (.Site.Params.alwaysNav)}}
             {{ partial "main-nav" . }}
+            {{end -}} 
+        
         </div>
 
         <div class="main-article">
