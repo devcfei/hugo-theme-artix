@@ -38,3 +38,34 @@ subbrand = "Docs"   # Sub-Brand of Site, optional
 ordersectionsby = "weight" # weight, title
 alwaysTOC = true    # always have TOC for a page
 alwaysBreadcrumb = true    # always have Breadcrumb for a page
+
+
+
+#
+# top menu shotcuts
+#
+
+[[menu.shortcuts]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.shortcuts]]
+name = "Getting Start"
+url = "/tutorials/get-started"
+weight = 2
+
+[[menu.shortcuts]]
+name = "Tutorials"
+url = "/tutorials"
+weight = 3
+
+[[menu.shortcuts]]
+name = "Docs"
+url = "/docs"
+weight = 4
+
+[[menu.shortcuts]]
+name = "About"
+url = "/About"
+weight = 5

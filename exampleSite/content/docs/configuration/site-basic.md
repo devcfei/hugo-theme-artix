@@ -8,10 +8,8 @@ weight: 1
 
 # Site basic configuration
 
-- Logo
-- Brand
-- Sub-brand
-- Multiple level menus
+- Logo, brand and sub-brand
+- Multiple level menu
 - Search
 - Legal infomation
 - Code highlight
@@ -28,6 +26,39 @@ The logo should be configured by replace the `static/images/favicon.png`. The br
 brand = "Artix"     # Brand of Site
 subbrand = "Docs"   # Sub-Brand of Site, optional
 ```
+
+
+## Multiple level menu
+
+The multiple level menu should be configured by the global site setting in `config.toml` 
+
+```toml
+[[menu.shortcuts]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.shortcuts]]
+name = "Getting Start"
+url = "/tutorials/get-started"
+weight = 2
+
+[[menu.shortcuts]]
+name = "Tutorials"
+url = "/tutorials"
+weight = 3
+
+[[menu.shortcuts]]
+name = "Docs"
+url = "/docs"
+weight = 4
+
+[[menu.shortcuts]]
+name = "About"
+url = "/About"
+weight = 5
+```
+
 
 ## Code highlight
 
