@@ -1,0 +1,5 @@
+{{- if in .Page.Params.mdext "wavedrom" -}}
+<script src="{{ "wavedrom/default.js" | relURL }}" type="text/javascript"></script>
+<script src="{{ "wavedrom/wavedrom.min.js" | relURL }}" type="text/javascript"></script>
+<script type="WaveDrom" >{{ safeHTML .Inner  }}</script>
+{{- end -}}

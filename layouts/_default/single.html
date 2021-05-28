@@ -4,7 +4,8 @@
     {{ partial "head" . }}
 </head>
 
-<body>
+
+<body class="" {{- if in .Page.Params.mdext "wavedrom" -}} onload="WaveDrom.ProcessAll()" {{- end -}}>
     {{ partial "header" . }}
     {{ partial "main" . }}
     {{ partial "footer" . }}
