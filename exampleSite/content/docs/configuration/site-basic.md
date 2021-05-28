@@ -30,33 +30,64 @@ subbrand = "Docs"   # Sub-Brand of Site, optional
 
 ## Multiple level menu
 
-The multiple level menu should be configured by the global site setting in `config.toml` 
+The multiple level menu should be configured by the global site setting in `config.toml`, up to 3 level supported.
 
 ```toml
-[[menu.shortcuts]]
+#
+# top menu shotcuts
+#
+[menu]
+[[menu.shotcuts]]
 name = "Home"
 url = "/"
 weight = 1
 
-[[menu.shortcuts]]
+[[menu.shotcuts]]
 name = "Getting Start"
 url = "/tutorials/get-started"
 weight = 2
 
-[[menu.shortcuts]]
+[[menu.shotcuts]]
 name = "Tutorials"
 url = "/tutorials"
 weight = 3
 
-[[menu.shortcuts]]
+[[menu.shotcuts]]
 name = "Docs"
 url = "/docs"
 weight = 4
+identifier ="document"
 
-[[menu.shortcuts]]
+[[menu.shotcuts]]
 name = "About"
 url = "/About"
 weight = 5
+
+#
+# 2nd level menu
+#
+[[menu.shotcuts]]
+parent = "document"
+name = "Configuration"
+url = "/docs/configuration"
+weight = 1
+
+[[menu.shotcuts]]
+parent = "document"
+name = "Markdown"
+url = "/docs/markdown"
+weight = 2
+identifier ="markdown"
+
+
+#
+# 3rd
+#
+[[menu.shotcuts]]
+parent = "markdown"
+name = "Highlight"
+url = "/docs/markdown/codehighlight"
+weight = 1
 ```
 
 
