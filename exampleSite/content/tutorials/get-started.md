@@ -27,3 +27,6 @@ cd hugo-theme-artix
 ## Step 3 - Start your own site
 
 
+### Configuration
+
+
