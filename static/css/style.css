@@ -530,6 +530,16 @@ main{
 }
 
 
+.main-article a, main-article a:visited{
+    text-decoration: none;
+    color: rgb(2, 88, 247);
+}
+
+.main-article main-article a:hover{
+    text-decoration: underline;
+}
+
+
 .main-article ul
 {
     list-style: disc;
