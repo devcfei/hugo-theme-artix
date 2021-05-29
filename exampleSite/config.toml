@@ -40,6 +40,9 @@ alwaysTOC = true    # always have TOC for a page
 alwaysBreadcrumb = true    # always have Breadcrumb for a page
 alwaysNav = true    # always have navigator for a page
 
+enableSearch = true  # enable Search
+enableLogSign = false  # enable Log sign
+
 # path name excluded from documentation navigator
 nav_exclusion = [
     "articles",
