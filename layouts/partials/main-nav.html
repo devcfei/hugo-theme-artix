@@ -1,5 +1,5 @@
 {{$currentNode := .}}
-<nav>
+
 <ul>
 {{- if eq .Site.Params.ordersectionsby "title" -}}
   {{- range .Site.Home.Sections.ByTitle -}}
@@ -11,7 +11,7 @@
   {{- end -}}
 {{- end}}
 </ul>
-</nav>
+
 
 {{define "open-menu"}}
 {{- $currentNode := .currentnode -}}
@@ -21,9 +21,11 @@
 {{- else -}}
   {{- safeHTML .Params.head -}}
     {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
-    <li class="{{ if .IsAncestor $currentNode }}parent{{ end }}{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active{{ end }}{{ end }}{{ if .Params.alwaysopen }} parent{{ end }}"><a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
+    <li class="{{ if .IsAncestor $currentNode }}parent{{ end }}{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active{{ end }}{{ end }}{{ if .Params.alwaysopen }} parent{{ end }}"> + <a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
+      <label for="{{ .Title }}"></label><input  id="{{ .Title }}" type="checkbox" {{ if .IsAncestor $currentNode }}checked="checked"{{ end }} >
+      
       {{ if ne $numberOfPages 0 }}
-      <ul class="sub-menu">
+      <ul>
           {{- .Scratch.Set "pages" .Pages -}}
           {{- if .Sections -}}
             {{- .Scratch.Set "pages" (.Pages | union .Sections) -}}
@@ -46,11 +48,13 @@
           {{- end}}
       </ul>
       {{end}}
+
+      
     </li>
     {{- end -}}
 {{- else -}}
   {{- if not .Params.Hidden -}}
-<li class="{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}{{ end }}"><a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a></li>
+<li class="{{ if and .File $currentNode.File }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}{{ end }}"> <a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a></li>
   {{- end -}}
 {{ end -}}
 {{ end -}}

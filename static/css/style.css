@@ -480,13 +480,11 @@ main{
 
 .main-nav ul
 {
-    padding-left: 1em;
     margin: 0;
     padding: 0;
     list-style: none;
     user-select: none;    
-    padding-left: 0px;  
-
+    padding-left: 0px;
 }
 
 .main-nav ul li{
@@ -495,6 +493,34 @@ main{
     list-style: none;
     user-select: none;
 }
+
+.main-nav li > ul, .main-nav li > ol {
+	display: none;
+    padding-left: 1em;
+}
+
+.main-nav input[type="checkbox"] {
+	display: none;
+	position: relative;
+}
+
+.main-nav label {
+	position: relative;
+	display: inline-block;
+}
+
+
+.main-nav label:after {
+	/* content: ''; */
+	position: static;
+}
+
+.main-nav input[type="checkbox"]:checked + ul, .tree-list input[type="checkbox"]:checked + ol{
+	display: block;
+} 
+
+
+
 
 .main-article{
     max-width: 65rem;
