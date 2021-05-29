@@ -48,6 +48,14 @@ nav_exclusion = [
     "articles",
 ]
 
+
+[outputs]
+  home = [
+    "HTML",
+    "RSS",
+    "JSON"
+  ]
+
 #
 # top menu shotcuts
 #

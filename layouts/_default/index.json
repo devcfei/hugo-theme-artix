@@ -1,0 +1,19 @@
+{{- $.Scratch.Add "index" slice -}}
+
+{{- $.Scratch.Add "section_names" slice -}}
+
+{{- range (where .Site.Sections "Params.headless" "!=" "true") -}}
+  {{- $.Scratch.Add "section_names" .Section -}}
+{{- end -}}
+
+{{- $.Scratch.Add "section_names" "" -}}
+
+{{- $sections := $.Scratch.Get "section_names" -}}
+
+{{- range .Site.Pages -}}
+  {{- if in $sections .Section -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "contents" .Plain "permalink" .Permalink) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $.Scratch.Get "index" | jsonify -}}
