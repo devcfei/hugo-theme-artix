@@ -5,9 +5,13 @@ weight: 3
 #draft: true
 ---
 
+
+# Alert
+
 The `alert` shortcode allow you to highlight information in your page. They create a colored box surrounding your text, like this:
 
 {{%alert%}}**This is** an alert !{{%/alert%}}
+
 ## Usage 
 
 | Parameter | Default | Description |
@@ -21,15 +25,15 @@ The `alert` shortcode allow you to highlight information in your page. They crea
 
 ## Basic examples
 
-```
-	{{%/* alert primary */%}}**this** is a primary{{%/* /alert */%}}
-	{{%/* alert theme="info" */%}}**this** is a text{{%/* /alert */%}}
-	{{%/* alert theme="success" */%}}**Yeahhh !** is a text{{%/* /alert */%}}
-	{{%/* alert theme="warning" */%}}**Be carefull** is a text{{%/* /alert */%}}
-	{{%/* alert danger */%}}**Beware !** is a text{{%/* /alert */%}}
-	{{%/* alert dark */%}}**Dark !** is a dark{{%/* /alert */%}}
-	{{%/* alert light */%}}**oooh !** is a light{{%/* /alert */%}}
-	{{%/* alert secondary */%}}**Wait !** is a secondary{{%/* /alert */%}}
+```markdown
+{{%/* alert primary */%}}**this** is a primary{{%/* /alert */%}}
+{{%/* alert theme="info" */%}}**this** is a text{{%/* /alert */%}}
+{{%/* alert theme="success" */%}}**Yeahhh !** is a text{{%/* /alert */%}}
+{{%/* alert theme="warning" */%}}**Be carefull** is a text{{%/* /alert */%}}
+{{%/* alert danger */%}}**Beware !** is a text{{%/* /alert */%}}
+{{%/* alert dark */%}}**Dark !** is a dark{{%/* /alert */%}}
+{{%/* alert light */%}}**oooh !** is a light{{%/* /alert */%}}
+{{%/* alert secondary */%}}**Wait !** is a secondary{{%/* /alert */%}}
 ```
 {{% alert primary %}}**this** is an primary{{% /alert %}}
 {{% alert theme="info"%}}**this** is an info{{% /alert %}}

@@ -10,11 +10,11 @@ weight: 8
 **The markdown**
 
 ```markdown
-![logo](/images/favicon.png)
+![logo](https://devcfei.github.io/artixdoc/images/favicon.png)
 ```
 
 
 
 **Rendered as follow**
 
-![logo](/images/favicon.png)
+![logo](https://devcfei.github.io/artixdoc/images/favicon.png)

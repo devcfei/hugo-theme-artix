@@ -9,7 +9,9 @@ weight: 5
 
 # Panel
 
-{{% panel theme="success" header="The panel shortcode" %}}Allow you to highlight information or put it in a box. They create a colored box surrounding your text{{% /panel %}}
+{{% panel theme="success" header="The panel shortcode" %}}
+Allow you to highlight information or put it in a box. They create a colored box surrounding your text
+{{% /panel %}}
 
 
 ## Usage 
@@ -23,20 +25,22 @@ weight: 5
 ## Basic example
 
 By default :
-```    
-	{{%/* panel */%}}this is a panel text{{%/* /panel */%}}
+```markdown    
+{{%/* panel */%}}this is a panel text{{%/* /panel */%}}
 ```    
 {{%panel%}}this is a panel text{{%/panel%}}
 
 ## Panel with heading
 
 Easily add a heading container to your panel with `header` parameter. You may apply any theme.
-```    
-	{{%/* panel theme="danger" header="panel title" */%}}this is a panel text{{%/* /panel */%}}
-```    
+```markdown    
+{{%/* panel theme="danger" header="panel title" */%}}this is a panel text{{%/* /panel */%}}
+```
+   
 {{% panel theme="danger" header="panel title" %}}this is a panel text{{% /panel %}}
-```    
-	{{%/* panel theme="success" header="panel title" */%}}this is a panel text{{%/* /panel */%}}
+
+```markdown  
+{{%/* panel theme="success" header="panel title" */%}}this is a panel text{{%/* /panel */%}}
 ```    
 {{% panel theme="success" header="panel title" %}}this is a panel text{{% /panel %}}
 

@@ -3,7 +3,7 @@
         <input type="checkbox" name="" id="check">
         
         <div class="logo-container">
-            <img class="logo-icon" src="/images/favicon.png"/>
+            <img class="logo-icon" src="{{"images/favicon.png" | relURL}}"/>
             <h1 class="logo">{{.Site.Params.Brand}}</h1>
 
             {{- if .Site.Params.Subbrand}}  

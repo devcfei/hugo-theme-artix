@@ -61,39 +61,39 @@ java runtime needed to run{{%/notice%}}
 ## Usage 
 Enclose multiple `{{%/*tab label*/%}}` in a `{{%/*tabs*/%}}` shortcode
 
-```
-	{{</* tabs */>}}
-	
-		{{%/* tab "PHP" */%}} 
-		This is how we do a Hello world with php 
-		```php
-			<?php 
-			Print "Hello, World!";
-			?>
-		```
-		{{%/* /tab */%}}
+```markdown
+{{</* tabs */>}}
 
-		{{</* tab "Golang" */>}} 
-		This is how we do a Hello world with go
-		```go
-			package main
-			import "fmt"
-			func main() {
-			    fmt.Println("hello world")
-			}	
-		```
-		{{</* /tab */>}}
+    {{%/* tab "PHP" */%}} 
+    This is how we do a Hello world with php 
+    ```php
+        <?php 
+        Print "Hello, World!";
+        ?>
+    ```
+    {{%/* /tab */%}}
 
-		{{</* tab "Java" */>}} 
-		This is how we do a Hello world with java
-		```java
-			class HelloWorld {
-			    public static void main(String[] args) {
-			        System.out.println("Hello, World!"); 
-			    }
-			}
-		```
-		{{</* /tab */>}}
+    {{</* tab "Golang" */>}} 
+    This is how we do a Hello world with go
+    ```go
+        package main
+        import "fmt"
+        func main() {
+            fmt.Println("hello world")
+        }	
+    ```
+    {{</* /tab */>}}
 
-	{{</* /tabs */>}}
+    {{</* tab "Java" */>}} 
+    This is how we do a Hello world with java
+    ```java
+        class HelloWorld {
+            public static void main(String[] args) {
+                System.out.println("Hello, World!"); 
+            }
+        }
+    ```
+    {{</* /tab */>}}
+
+{{</* /tabs */>}}
 ```

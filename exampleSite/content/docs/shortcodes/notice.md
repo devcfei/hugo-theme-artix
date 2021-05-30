@@ -14,8 +14,9 @@ The **notice** shortcode highlights a text with a solid vertical line in front o
 You may add a label to your notice which will be displayed on top of it.
 {{% /notice %}}
 
-## Usage 
-```
+## Usage
+
+```markdown
 	{{%/*notice $color $label %}}Lorem ipsum{{%/notice*/%}}
 ```
 
@@ -33,7 +34,7 @@ You may add a label to your notice which will be displayed on top of it.
 {{% notice danger Attention %}}ipsum dolor sit amet{{% /notice %}}
 
 
-```
+```markdown
 	{{%/* notice success %}}Lorem ipsum dolor sit amet, consectetur{{% /notice %}}
 	{{% notice  %}}**Lorem !**\
  ipsum dolor sit amet, consectetur.{{% /notice %}}

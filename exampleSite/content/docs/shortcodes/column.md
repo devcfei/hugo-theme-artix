@@ -6,7 +6,7 @@ weight: 4
 ---
 
 
-# Colume
+# Column
 
 the `{{</*column*/>}}` shortcode display content side by side
 
@@ -30,28 +30,29 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 {{< /columns >}}
 
 
-## Usage 
-```
-	{{</* columns >}} 
-	
-	## 1st column
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. 
+## Usage
 
-	<---> <!-- separator between columns -->
+```markdown
+{{</* columns >}} 
 
-	## 2nd column
-	Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. 
+## 1st column
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. 
 
-	<---> <!-- separator between columns -->
+<---> <!-- separator between columns -->
 
-	## last column
-	Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+## 2nd column
+Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. 
 
-	{{< /columns */>}}
+<---> <!-- separator between columns -->
+
+## last column
+Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+
+{{< /columns */>}}
 
 ```
 

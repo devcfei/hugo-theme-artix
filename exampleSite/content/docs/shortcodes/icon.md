@@ -5,6 +5,8 @@ weight: 6
 #draft: true
 ---
 
+# Icon
+
 Display one of the 2 298 icons like 
 {{% icon name="fa-address-card" size="64px" %}}
 {{% icon name="fa-bell" size="32px"%}} 
@@ -35,20 +37,21 @@ Type a `b` letter after the name to use the brand version of FontAwesome
 
 {{%/alert%}}
 
-## Demo
-```
-	{{</* icon name="fa-save" size="64px" */>}}
-	{{</* icon name="fa-save" size="32px" */>}}
-	{{</* icon fa-save */>}}
+## Examples
+
+```markdown
+{{</* icon name="fa-save" size="64px" */>}}
+{{</* icon name="fa-save" size="32px" */>}}
+{{</* icon fa-save */>}}
 ```
 {{<icon name="fa-save" size="64px">}}
 {{<icon name="fa-save" size="32px">}}
 {{<icon fa-save>}}
 
-```
-	{{</* icon name="fa-github" style="fab" size="64px" */>}}
-	{{</* icon name="fa-github" style="fab" size="32px" */>}}
-	{{</* icon fa-github b */>}}
+```markdown
+{{</* icon name="fa-github" style="fab" size="64px" */>}}
+{{</* icon name="fa-github" style="fab" size="32px" */>}}
+{{</* icon fa-github b */>}}
 ```
 {{<icon name="fa-github" style="fab" size="64px">}}
 {{<icon name="fa-github" style="fab" size="32px">}}

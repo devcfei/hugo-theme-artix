@@ -26,7 +26,10 @@ cd hugo-theme-artix
 
 ## Step 3 - Start your own site
 
+1. Follow the hugo official document to start a new site
+1. Follow the Artix document to configurate your site, refers to example site
 
-### Configuration
+
+## Have fun! 
 
 

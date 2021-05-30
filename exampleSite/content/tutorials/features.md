@@ -8,6 +8,8 @@ weight: 2
 
 # Features overview
 
+Some features are WIP(Working in process), some features are TBD(To be designed/development/plan...)
+
 ## Layout
 
 - Page Layout
@@ -19,7 +21,7 @@ weight: 2
         - TOC
         - Float TOC button
         - Edit on Git button
-- Layout for different size
+- Layout for different size(WIP)
     - Small
         - Header Navigator(Burger button| Logo| Brand |Menu dropdown)
         - Left Navigator(hide and fanout by Burger button)
@@ -31,12 +33,18 @@ weight: 2
 
 ## Shortcodes
 
-- Page cover
+- Page cover(TBD)
 - Alert
-- Badge
+- Badge(TBD)
 - Tab
-- Expand
-- Tips
+- Expand(TBD)
+- Mermaid
+- WaveDrom
+- KaTeX
+- Icon
+- Column
+- Notice
+- Panel
 
 ## Code highlight
 
@@ -45,7 +53,7 @@ weight: 2
 
 ## Markdown enhancement
 
-- Mermaid
-- Wavedrom
-- KaTex
+- Mermaid(TBD)
+- Wavedrom(TBD)
+- KaTex(TBD)
 
