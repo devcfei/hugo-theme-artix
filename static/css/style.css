@@ -333,7 +333,7 @@ section{
     }
 }
 
-@media (max-width: 920px){
+@media (max-width: 40rem){
     .hamburger-menu-container{
         display: flex;
     }
@@ -477,6 +477,17 @@ section{
         opacity: 0;
         transform: translateY(15px);
     }
+
+    .main-nav{
+        width: 0px;
+        display: none;
+    }
+
+
+    .main-toc{
+        width: 0px;
+        display: none;
+    }
 }
 
 
@@ -488,8 +499,9 @@ main{
 }
 
 .main-nav{
-    max-width: 20rem;
-    min-width: 20rem;
+    /* max-width: 20rem;
+    min-width: 20rem; */
+    width: 20rem;
     /* background-color:rgb(164, 243, 245); */
     border-right:1px dashed  #E7E7E7;
 
@@ -540,9 +552,11 @@ main{
 
 
 .main-article{
-    max-width: 65rem;
-    min-width: 65rem;
-    width: auto;
+    /* max-width: 65rem;
+    min-width: 65rem; */
+    min-width: 40rem;
+    width: 65rem;
+    /* width: auto; */
     /* background-color:rgb(195, 187, 223); */
 }
 
@@ -629,8 +643,9 @@ table, tr, th, td{
 }
 
 .main-toc{
-    max-width: 15rem;
-    min-width: 15rem;
+    /* max-width: 15rem;
+    min-width: 15rem; */
+    width: 15rem;
     /* background-color:rgb(198, 241, 200); */
     border-left:1px dashed  #E7E7E7;
     padding-left: 1em;
