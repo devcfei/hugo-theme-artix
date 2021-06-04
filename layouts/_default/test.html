@@ -37,17 +37,14 @@
         }
 
         .container{
-            max-width: 100rem;
-            padding: 0 2rem;
+            max-width: 100%;
+            padding: 0 10%;
             margin: 0 auto;
             display: flex;
             position: relative;
             min-height:100%;
         }
         
-
-
-
 
         .brand-logo{
             width: 48px;
@@ -68,34 +65,45 @@
 
         /*----------*/
         .main-nav{
-            width: 20rem;
+            width: 20%;
             border-right: 1px dashed #000;
             background-color: coral;
 
         }
 
         .main-article{
-            width: 60rem;
+            width: 60%;
             background-color: rgb(106, 141, 151);
             word-wrap: break-word;  
         }
 
         .main-toc{
             border-left: 1px dashed #000;
-            width: 20rem;
+            width: 20%;
             background-color: rgb(73, 206, 184);
 
         }
 
 
-        @media (max-width: 920px){
+        @media (max-width: 716px){
+
+            .container{
+                width: 100%;
+                padding: 0;
+            }
+
             .main-nav{
                 width: 0px;
                 border:none;
                 display: none;
             }
 
-        
+            .main-article{
+                width: 100%;
+                background-color: rgb(106, 141, 151);
+                word-wrap: break-word;  
+            }
+
             .main-toc{
                 width: 0px;
                 border:none;
@@ -112,7 +120,8 @@
     <header>
 
         <div class="container">
-        
+
+     
             <div class="brand-logo">
                 <img class="brand-logo" src="{{"images/favicon.png" | relURL}}"/>
             </div>
@@ -124,8 +133,9 @@
             <div class="brand-subtitle">
                 Sub
             </div>
-
         </div>
+
+ 
 
     </header>
 
@@ -147,6 +157,9 @@
             <div class="main-article">
                 <h1>Article</h1>
 
+                
+
+                <!-- {{.Content}} -->
                 <p></p>
             </div>
             <div class="main-toc">
