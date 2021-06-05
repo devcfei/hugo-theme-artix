@@ -65,15 +65,16 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[menu.shotcuts]]
-name = "Getting Start"
-url = "/tutorials/get-started"
-weight = 2
+# [[menu.shotcuts]]
+# name = "Getting Start"
+# url = "/tutorials/get-started"
+# weight = 2
 
 [[menu.shotcuts]]
 name = "Tutorials"
 url = "/tutorials"
 weight = 3
+identifier= "tutorial"
 
 [[menu.shotcuts]]
 name = "Docs"
@@ -89,6 +90,19 @@ weight = 5
 #
 # 2nd level menu
 #
+
+[[menu.shotcuts]]
+parent = "tutorial"
+name = "Getting Start"
+url = "/tutorials/get-started"
+weight = 1
+
+[[menu.shotcuts]]
+parent = "tutorial"
+name = "Features"
+url = "/tutorials/features"
+weight = 2
+
 [[menu.shotcuts]]
 parent = "document"
 name = "Configuration"
