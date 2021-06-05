@@ -467,7 +467,7 @@ main{
 
 .highlight pre code{
     color: #000;
-    font-family: monospace, sans-serif
+    font-family: monospace, sans-serif;
 }
 
 code{
@@ -477,6 +477,20 @@ code{
 
 table, tr, th, td{
     border: 1px solid #E7E7E7;
+
+}
+
+table{
+    table-layout: fixed;
+}
+
+td{
+    word-wrap:break-all;  
+} 
+
+
+pre{
+    overflow: auto;
 }
 
 .main-article blockquote {

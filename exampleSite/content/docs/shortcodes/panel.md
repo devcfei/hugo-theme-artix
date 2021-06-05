@@ -20,7 +20,7 @@ Allow you to highlight information or put it in a box. They create a colored box
 |:--|:--|:--|
 | header | none | The title of the panel. If specified, this title will be displayed in its own header row. |
 | footer | none | the footer of the panel. If specified, this text will be displayed in its own row |
-| theme | `primary` | `default`,`primary`,`info`,`success`,`warning`,`danger` |
+| theme | primary | default, primary, info, success, warning, danger |
 
 ## Basic example
 

@@ -16,7 +16,7 @@ The `alert` shortcode allow you to highlight information in your page. They crea
 
 | Parameter | Default | Description |
 |:--|:--|:--|
-| theme | `info` | `primary`,`success`, `info`,`warning`,`danger`,`dark`,`light`,`secondary` |
+| theme | info | primary, success, info, warning, danger, dark, light, secondary |
 
 {{%alert info%}}
 **Tips :** setting only the theme as argument works too : 
