@@ -354,6 +354,8 @@ main{
     /* background-color:rgb(164, 243, 245); */
     border-right:1px dashed  #E7E7E7;
 
+    overflow:auto;
+    white-space: nowrap;
 }
 
 
@@ -516,6 +518,9 @@ pre{
     /* background-color:rgb(198, 241, 200); */
     border-left:1px dashed  #E7E7E7;
     padding-left: 1em;
+
+    /* overflow:auto;
+    white-space: nowrap; */
 }
 
 .main-toc a:hover{
