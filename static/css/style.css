@@ -20,9 +20,9 @@ a, a:visited{
     text-decoration: none;
     color: rgb(80, 80, 80);
 }
-a:hover{
+/* a:hover{
     text-decoration: underline;
-}
+} */
 
 
 header{
@@ -356,6 +356,11 @@ main{
 
 }
 
+
+.main-nav a:hover{
+    text-decoration: underline;
+}
+
 .main-nav ul
 {
     margin: 0;
@@ -413,7 +418,7 @@ main{
     color: rgb(2, 88, 247);
 }
 
-.main-article main-article a:hover{
+.main-article a:hover{
     text-decoration: underline;
 }
 
@@ -513,6 +518,9 @@ pre{
     padding-left: 1em;
 }
 
+.main-toc a:hover{
+    text-decoration: underline;
+}
 
 body #TableOfContents > ul {  
     padding-left: 0em;
