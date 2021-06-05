@@ -385,7 +385,7 @@ main{
 }
 
 .main-nav input[type="checkbox"] {
-	display: none;
+    display: none;
 	position: relative;
 }
 

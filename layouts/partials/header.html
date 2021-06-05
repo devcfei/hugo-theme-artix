@@ -42,14 +42,14 @@
                             <ul>
                                 {{ range .Children }}
                                 <li class="dropdown-link">
-                                    <a href="{{ .URL }}">{{ .Name }} <i class="fas fa-caret-down"></i> </a>
+                                    <a href="{{ .URL }}">{{ .Name }} {{ if .HasChildren }} <i class="fas fa-caret-down"></i> {{ end }}  </a>
                                     
                                 {{ if .HasChildren }}
                                 <div class="dropdown second">
                                     <ul>
                                         {{ range .Children }}
                                         <li class="dropdown-link">
-                                            <a href="{{ .URL }}">{{ .Name }} <i class="fas fa-caret-down"></i></a>
+                                            <a href="{{ .URL }}">{{ .Name }} {{ if .HasChildren }} <i class="fas fa-caret-down"></i> {{ end }}</a>
                                         </li>
                                         {{ end }}
                                         <div class="arrow"></div>
