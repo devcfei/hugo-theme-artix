@@ -3,7 +3,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+{{- if .Site.Params.iconFavicon}}
+<link rel="icon" type="image/svg+xml" href="{{.Site.Params.iconFavicon | relURL}}"/>
+
+{{- else}}
 <link rel="icon" type="image/svg+xml" href="{{"images/favicon.ico" | relURL}}"/>
+{{- end}}
+
 <title>{{.Page.Title}}::{{.Site.Params.Brand}}</title>
 
 <link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/shortcodes/notice.scss" | toCSS).Permalink }}'>
