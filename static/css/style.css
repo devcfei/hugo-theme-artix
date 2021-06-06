@@ -482,19 +482,32 @@ code{
     font-family: 'Poppins', sans-serif;
 }
 
-table, tr, th, td{
-    border: 1px solid #E7E7E7;
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    /* table-layout: fixed; */
+    margin-top: 1em;
+    margin-bottom: 1em;
 
 }
-
-table{
-    table-layout: fixed;
-}
-
-td{
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
     word-wrap:break-all;  
-} 
+}
 
+th {
+    background-color: #c7cac7;
+
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 img{
     width:100%;
