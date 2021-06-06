@@ -358,7 +358,9 @@ main{
     white-space: nowrap;
 }
 
-
+.main-nav .main-nav-content{
+    position: fixed;
+}
 .main-nav a:hover{
     text-decoration: underline;
 }
@@ -549,6 +551,11 @@ pre{
 
 .main-toc a:hover{
     text-decoration: underline;
+}
+
+
+.main-toc .main-toc-content{
+    position: fixed;
 }
 
 body #TableOfContents > ul {  

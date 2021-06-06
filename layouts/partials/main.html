@@ -10,11 +10,14 @@
         {{else}}
         
 
-        <div class="main-nav">            
-            <h3> Tree </h3>
-            {{if or (in .Params.layouts "nav") (.Site.Params.alwaysNav) }}
-            {{ partial "main-nav" . }}
-            {{end -}}
+        <div class="main-nav">
+            <div class="main-nav-content">      
+                <h3> Tree </h3>
+                {{if or (in .Params.layouts "nav") (.Site.Params.alwaysNav) }}
+                {{ partial "main-nav" . }}
+                {{end -}}
+
+            </div>  
         
         </div>
 
@@ -36,11 +39,16 @@
 
 
         <div class="main-toc">
-            <h3> In this article</h3>
 
-            {{if or (in .Params.layouts "toc") (.Site.Params.alwaysTOC)}}
-            {{ .TableOfContents }}
-            {{end -}} 
+            <div class="main-toc-content">
+                <h3> In this article</h3>
+
+                {{if or (in .Params.layouts "toc") (.Site.Params.alwaysTOC)}}
+                {{ .TableOfContents }}
+                {{end -}} 
+
+            </div>
+
 
         </div>
 
