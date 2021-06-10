@@ -376,14 +376,14 @@ main{
 
 .main-nav ul li{
     margin: 10 0;
-    padding-left: 1em;
+    padding-left: 0.4em;
     list-style: none;
     user-select: none;
 }
 
 .main-nav li > ul, .main-nav li > ol {
 	display: none;
-    padding-left: 1em;
+    padding-left: 0.4em;
 }
 
 .main-nav input[type="checkbox"] {
